@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_organizer/static/css/main.15241dee.css",
+    "main.js": "/movie_organizer/static/js/main.7b46b0a0.js",
+    "index.html": "/movie_organizer/index.html",
+    "main.15241dee.css.map": "/movie_organizer/static/css/main.15241dee.css.map",
+    "main.7b46b0a0.js.map": "/movie_organizer/static/js/main.7b46b0a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15241dee.css",
+    "static/js/main.7b46b0a0.js"
+  ]
+}
