@@ -1,0 +1,20 @@
+.HomePage {
+    width: 100%;
+}
+
+.HomePage .header {
+    width: 100%;
+    height: 50px;
+    background-color: #496DDB;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.HomePage .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: flex-start;    
+}

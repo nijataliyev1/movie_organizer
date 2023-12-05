@@ -1,0 +1,36 @@
+.CardList {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.CardList .search {
+    display: flex;
+    height: 35px;
+}
+
+.CardList .search input {
+    width: 250px;
+    border-radius: 0%;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+    height: 100%;
+}
+
+.CardList .search button {
+    height: 100%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .CardList {
+        width: 100%;
+    }
+  }

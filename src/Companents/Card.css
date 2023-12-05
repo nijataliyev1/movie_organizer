@@ -1,0 +1,38 @@
+.Card {
+    display: flex;
+    padding: 10px;
+    background-color: #FFEEDB;
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.Card img {
+    width: calc(50% - 10px);
+    height: 180px;
+}
+
+.Card h3 {
+    margin: 20px 0;
+}
+
+.Card button {
+    margin: 10px 0;
+    background-color: #496DDB;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    width: 150px;
+}
+
+.Card .aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.Card .link {
+    color: white;
+    text-decoration: none;
+}
