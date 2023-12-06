@@ -14,8 +14,10 @@ export default function NewList1 () {
         dispatch(removeMovie({imdbID : e.target.id}))
     }
     function save() {
-        dispatch(addList(list));
-        dispatch(disable());
+        if (list.movies.length){
+            dispatch(addList(list));
+            dispatch(disable());
+        }
         
     }
     function resetButton() {
