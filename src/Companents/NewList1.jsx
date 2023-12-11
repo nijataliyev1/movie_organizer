@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function NewList1 () {
     const list = useSelector(state => state.currentList);
+    const favoriteLists = useSelector(state => state.fovariteLists.lists)
     const dispatch = useDispatch();
     function inputChange(e) {
         dispatch(changeName(e.target.value));
@@ -14,7 +15,7 @@ export default function NewList1 () {
         dispatch(removeMovie({imdbID : e.target.id}))
     }
     function save() {
-        if (list.movies.length && list.name){
+        if (list.movies.length && list.name && !(favoriteLists.find(item => { return item.name === list.name}))){
             dispatch(addList(list));
             dispatch(disable());
         }
