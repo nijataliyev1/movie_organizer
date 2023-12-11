@@ -18,3 +18,11 @@
     padding: 0 15px;
     align-items: flex-start;    
 }
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .HomePage .main {
+        flex-direction: column-reverse;
+    }
+
+    
+}
